@@ -1,7 +1,7 @@
 class Robot():
     def __init__(self, robot_sprite):
         self.position = [0, 0]
-        self.speed = 10
+        self.speed = 0.3
         self.sprite = robot_sprite
 
     def move_right(self):
