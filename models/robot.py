@@ -1,8 +1,10 @@
 class Robot():
     def __init__(self, robot_sprite):
         self.position = [0, 0]
-        self.speed = 0.3
+        self.speed = 10
         self.sprite = robot_sprite
+        self.hearts = 8
+        self.size = [100, 100]
 
     def move_right(self):
         self.position[0] += self.speed
